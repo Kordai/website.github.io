@@ -19,10 +19,10 @@ a {
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-image: url(../img/top_bg_pc.png);
+	background-image: url(../../img/top_bg_pc.png);
 }
 .top_overlay {
-	background-image: url(../img/top_bg_dev.png);
+	background-image: url(website.github.io/img/top_bg_dev.png);
 	position: absolute;
 	width: 100%;
 	height: 100%;
