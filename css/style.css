@@ -16,11 +16,18 @@ a {
 }
 .top_banner1 {
 	height: 620px;
+	background-image: url(../img/top_bg_pc.png);
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-image: url(../img/top_bg_pc.png);
 }
+.section_2 {
+	height: 620px;
+	position: relative;
+	background-image: url(../img/top_bg_center.png);
+	background-size: cover;
+}
+
 .top_overlay {
 	background-image: url(../img/top_bg_dev.png);
 	position: absolute;
@@ -38,6 +45,21 @@ header {
 	top: 0;
 	left: 0;
 } 
+.section_4 {
+	height: 600px;
+	background-color: #193244;
+	width: 100%;  
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.section_3 {
+	height: 600px;
+	width: 100%;  
+	position: relative;
+	top: 0;
+	left: 0;
+}
 footer {
 	width: 100%;  
 	position: relative;
@@ -98,7 +120,38 @@ footer {
 	padding-top: 0px;
 	margin-left: 70px;
 }
-.section_1 .text_text {
+.panel_1 {
+	height: 530px;
+	position: relative;
+	width: 270px;
+	background-color: #1a6388;
+	padding-left: 25px;
+	padding-top: 10px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.panel_l {
+	height: 100px;
+	position: relative;
+	width: 400px;
+	background-color: #1a6388;
+	padding-left: 25px;
+	padding-top: 10px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.panel_r {
+	height: 100px;
+	position: relative;
+	width: 400px;
+	background-color: #1a6388;
+	padding-left: 25px;
+	padding-top: 10px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.section_1 .text_text,
+.section_3 .text_center{
 	font-size: 25px;
 	font-weight: bold;
 	color: #1a6388;
@@ -113,6 +166,28 @@ footer {
 	height: 25px;
 	width: 100px;
 	margin-top: 10px;
-	margin-left: 90px;
-
+	margin-left: 90px;	
+}
+.text_center {
+	text-align: center;
+	margin-top: 80px;
+}
+.check_box1 {
+	height: 33px;
+	width: 33px;
+	margin-left: 350px;
+	margin-top: 29px;
+	background-image: url(../img/check_box.png);
+	background-repeat: no-repeat;
+}
+.check_box2 {
+	height: 33px;
+	width: 33px;
+	margin-left: -8px;
+	margin-top: 29px;
+	background-image: url(../img/check_box.png);
+	background-repeat: no-repeat;
+}
+.container_12 .grid_1 {
+	width: 33px;
 }
